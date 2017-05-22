@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Importando Tipografias */
+@font-face {
+ font-family: "Origin-Regular";
+ src: url(../fonts/Origin-Regular.eot), url(../fonts/Origin-Regular.otf), url(../fonts/Origin-Regular.ttf); /* Origin Regular */
+}
+
+@font-face {
+ font-family: "Tall-Film";
+ src: url(../fonts/Tall_Film.eot), url(../fonts/Tall_Film.otf), url(../fonts/Tall_Film.ttf); /* Tall-Film */
+}
+
+@font-face {
+ font-family: "Bebas-Neue";
+ src: url(../fonts/BebasNeue.eot), url(../fonts/BebasNeue.otf), url(../fonts/BebasNeue.ttf); /* Bebas Neue */
+}
+
+#imagotipo{
+	margin-top: 25px;
+}
+
+#hoja_de_vida h1, 
+#hoja_de_vida h2{
+	font-family: "Bebas-Neue";
+	margin-left: 30px;
+}
+
+h3{
+	font-family: "Bebas-Neue";
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #2796A3 !important;
+}
+
+.nav-tabs > li > a {
+	font-family: "Bebas-Neue";
+	color: #000000;
+	font-size: 25px;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:active,
+.nav-tabs > li > a:focus{
+ 	border-color: #2796A3 !important;
+	background-color: #2796A3 !important;
+	color: #FFFFFF !important;
+	border-bottom: none !important;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+	font-family: "Bebas-Neue";
+	color: #FFFFFF !important;
+	cursor: default;
+	background-color: #2796A3 !important;
+	border: 1px solid #2796A3 !important;
+	border-bottom-color: none;
+}
+
+.nav-tabs.nav-justified > li > a{
+	border-bottom: none;
+}
+
+form{
+	text-align: right;
+}
+
+ul{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	font-weight: normal;
+}
+
+footer{
+	background-color: #2796A3;
+	color: #FFFFFF;
+}
